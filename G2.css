@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 body, header, nav, ul, li, h1, h2, h3, p, img, a, label, input, textarea, form {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background-color: #fff;
+  background-color: #fafafc;
   padding: 20px;
   color: #fff;
 
@@ -112,59 +112,16 @@ section {
 
 #hero h1 {
   font-size: 80px;
-  color: #fff;
+  color: #170160;
   margin-top: 120px;
 }
-/*
-#featured-products {
-  text-align: center;
-}
 
-.product {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 20px;
-  display: flex;
-}
-
-.product img {
-  max-width: 100%;
-}
-
-#services ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-top: 10px;
-}
-
-#contact form {
-  margin-top: 20px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
-input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  cursor: pointer;
-
-*/
 
 
 #featured-products {
   text-align: center;
   margin-top: 300px;
+  
 }
 
 .product {
@@ -182,7 +139,7 @@ input[type="submit"] {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+  background-color: rgba(0, 0, 0, 0.5); 
   color: #fff;
   display: flex;
   align-items: center;
@@ -200,13 +157,13 @@ input[type="submit"] {
   padding: 10px;
 }
 
-/* Adjust the rest of your CSS styles as needed */
+
 
 
 
 
 footer {
-  background-color: #333;
+  background-color: #06003b;
   padding: 20px;
   color: #fff;
   text-align: center;
@@ -217,7 +174,7 @@ footer {
 .footer-right {
   display: inline-block;
   vertical-align: top;
-  width: calc(33.33% - 20px); /* Adjusted width to accommodate padding */
+  width: calc(33.33% - 20px); 
   box-sizing: border-box;
   text-align: left;
 }
@@ -246,18 +203,7 @@ footer {
   color: #fff;
 }
 
-/* Adjust the rest of your CSS styles as needed */
 
-
-/* Adjust the rest of your CSS styles as needed */
-
-
-  
-  
-  /* Adjust the rest of your CSS styles as needed */
-          /* Form container */
-         /* Form container */
-  /* Form container */
   .form-container {
     max-width: 300px;
     margin: 0 auto;
@@ -267,7 +213,7 @@ footer {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Form labels */
+  
   label {
     display: block;
     margin-bottom: 5px;
@@ -275,7 +221,7 @@ footer {
     font-size: 10px;
   }
   
-  /* Form input fields */
+  
   input[type="text"],
   input[type="email"],
   textarea {
@@ -288,7 +234,6 @@ footer {
     font-size: 10px;
   }
   
-  /* Form submit button */
   input[type="submit"] {
     display: block;
     width: 100%;
@@ -301,18 +246,17 @@ footer {
     font-size: 12px;
   }
   
-  /* Form submit button on hover */
   input[type="submit"]:hover {
     background-color: #45a049;
   }
-    /* Gallery container */
+    
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       grid-gap: 10px;
     }
     
-    /* Gallery item */
+    
     .gallery-item {
       position: relative;
       overflow: hidden;
@@ -320,7 +264,6 @@ footer {
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     }
     
-    /* Gallery image */
     .gallery-item img {
       display: block;
       width: 100%;
@@ -328,12 +271,11 @@ footer {
       transition: transform 0.3s ease-in-out;
     }
     
-    /* Image hover effect */
     .gallery-item:hover img {
       transform: scale(1.1);
     }
     
-    /* Image caption */
+   
     .gallery-caption {
       position: absolute;
       bottom: 0;
@@ -348,7 +290,7 @@ footer {
       transition: opacity 0.3s ease-in-out;
     }
     
-    /* Caption fade-in on hover */
+   
     .gallery-item:hover .gallery-caption {
       opacity: 1;
     }
