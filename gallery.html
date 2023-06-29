@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+      <link rel="stylesheet" href="G2.css">
+      </head>
+      <body>
+        <header>
+          <nav>
+              <div class="blue">
+              <div class="yellow">
+              <div class="green">
+      
+                <div class="nav">
+                  <div class="logo">
+                  <ul >
+                    <li><a href="index.html"><img src="logo.png" alt="Product 2" height="70px" width="70px"></a></li>
+      
+                  </ul>
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#featured-products">Services</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="#footer">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                  </ul>
+                </div>
+               
+           <div class="icon">
+            <ul >
+              <li><a href="https://www.facebook.com/SPRwandaltd" target="_blank"><img src="fbLogo.png" alt="Product 2" height="30px" width="30px"></a></li>
+              <li><a href="https://twitter.com/SPRwanda" target="_blank"><img src="twitterlogo.png" alt="Product 2" height="30px" width="30px"></a></li>
+              <li><a href="https://www.instagram.com/sprwanda/" target="_blank"><img src="iglogo.png" alt="Product 2" height="30px" width="30px"></a></li>
+        
+            </ul>
+                </div>
+          
+        </div>
+                
+           
+       
+            </div>
+          </div>
+            </div>
+          </nav>
+        </header>
+      
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="gallery (1).jpg" alt="Image 1"   height="300px"> 
+      <div class="gallery-caption">cycling cup</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery (2).jpg" alt="Image 2" height="300px">
+      <div class="gallery-caption">workers</div>
+    </div>
+    <div class="gallery-item">
+      <img src="gallery (3).jpg" alt="Image 3"  height="300px">
+      <div class="gallery-caption">Innauguration</div>
+    </div>
+    <div class="gallery-item">
+        <img src="gallery (4).jpg" alt="Image 4"  height="300px">
+        <div class="gallery-caption">Motocyclist</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery (5).jpg" alt="Image 5" height="300px">
+        <div class="gallery-caption">station</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery (6).jpg" alt="Image 6" height="300px">
+        <div class="gallery-caption">Rymax oil</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gallery (7).jpg" alt="Image 7" height="300px">
+        <div class="gallery-caption">smart pompist</div>
+      </div>
+      <div class="gallery-item">
+        <img src="gas.jpg" alt="Image 8" height="300px">
+        <div class="gallery-caption">Gas refilling</div>
+      </div>
+      <div class="gallery-item">
+        <img src="mechanics.jpg" alt="Image 9" height="300px">
+        <div class="gallery-caption">Mechanics</div>
+      </div>
+      <div class="gallery-item">
+        <img src="oilchange.jpg" alt="Image 10" height="300px">
+        <div class="gallery-caption">Oil change</div>
+      </div>
+      
+    
+    <!-- Add more gallery items as needed -->
+  </div>
+  <footer>
+    <section id="footer"></section>
+    <div class="footer-left">
+      <h3>Services</h3>
+      <ul>
+        <li>• Fuel Refilling</li>
+        <li>• Gas Refilling</li>
+        <li>• SP Lubricants</li>
+        <li>• SP vehicle mechanics</li>
+      </ul>
+      <br>
+    </br>
+      <h3>Follow</h3>
+      <a href="https://www.facebook.com/SPRwandaltd" target="_blank">
+      <img src="fbLogo.png" alt="Product 2" >
+    </a>
+    <a href="https://twitter.com/SPRwanda" target="_blank">
+      <img src="iglogo.png" alt="Product 2" >
+    </a>
+      <a href="https://www.instagram.com/sprwanda/"target="_blank">
+      <img src="twitterlogo.png" alt="Product 2" >
+    </a>
+
+    </div>
+    <div class="footer-center">
+      <h3>About Us</h3>
+      <p>Since its inception, Societe Petroliere Limited (SP Ltd) has grown 
+        to be a market leader in the petroleum industry with the largest 
+        distribution channel of petroleum products, LPG and lubricants in Rwanda. 
+        The company boasts 63 petrol stations, 5 LPG cylinder filling facilities 
+        and a state-of-the-art fuel depot with a storage capacity of 65 million 
+        liters. SP Ltd has three business subsidiaries with SP Tanzania, SP Kenya and ALMC.</p>
+    </div>
+    <div class="footer-right">
+      <h3>Contact</h3>
+      <ul>
+        <li>Email: info@sp-rwanda.rw</li>
+        <li>Phone: (250) 788- 867- 577</li>
+        <li>Address: KG , City, Country</li>
+        <br>
+        <br>
+        <br>
+        
+
+        
+        
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+        
+        <script>
+          document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+        
+            // Display the thank you message
+            alert("Thank you for contacting us our Team will reach out from you as soon as possible through the given email address");
+        
+            // Clear the form inputs
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+          });
+        </script>
+        
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Societe Petroliere Ltd (SP). All rights reserved.</p>
+    </div>
+    </section>
+  </footer>
+</body>
+</html>
