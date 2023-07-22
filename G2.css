@@ -46,7 +46,7 @@ nav ul li a {
 }
 .logo {
    text-align: left;
-   margin-top: 10px;
+   margin-top: 0px;
   
 }
 .menu{
@@ -77,7 +77,9 @@ section {
 }
 .blue {
     background-color: #165fcc;
-    padding: 20px 20px;
+    padding: 25px 25px;
+    margin-left: -20px;
+    margin-right: -20px;
     
 }
 .yellow {
@@ -88,7 +90,7 @@ section {
 .green {
     background-color: #196619;
     padding: 30px 30px;
-    height: 60px;
+    height: 100px;
 }
 
 
@@ -102,6 +104,8 @@ section {
   height: 80%;
   object-fit: cover;
   z-index: -1;
+  margin-left: 0px;
+  
 }
 
 
@@ -162,8 +166,9 @@ section {
 
 
 
+
 footer {
-  background-color: #06003b;
+  background-color: #196619;
   padding: 20px;
   color: #fff;
   text-align: center;
@@ -294,6 +299,54 @@ footer {
     .gallery-item:hover .gallery-caption {
       opacity: 1;
     }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  .partners-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+      grid-gap: 20px; /* Adjust the gap between logos */
+      justify-items: center;
+  }
+  
+  .partner-logo {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .partner-logo img {
+      display: block;
+      width: 100%;
+  }
+
+  #aboutt {
+    background-color: #165fcc; 
+    padding: 20px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  
+  .aboutt {
+    background-color: #165fcc;
+    padding: 20px;
+  }
+  
+  .aboutt h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .aboutt p {
+    font-size: 30px;
+  }
+
 
 
 
